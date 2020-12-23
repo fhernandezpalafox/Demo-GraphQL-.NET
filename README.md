@@ -1,2 +1,2 @@
 # Demo-GraphQL-.NET
-Charla sobre GrapQL .NET
+Charla sobre GraphQL .NET
