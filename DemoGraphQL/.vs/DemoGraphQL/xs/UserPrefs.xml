@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{40F3D89F-157E-468D-B076-734E21C12683}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoGraphQL/Controllers/GraphQLController.cs">
+    <Files>
+      <File FileName="DemoGraphQL/Models/Lugares.cs" Line="1" Column="1" />
+      <File FileName="DemoGraphQL/GraphQL/Types/LugaresType.cs" Line="7" Column="35" />
+      <File FileName="DemoGraphQL/GraphQL/GraphQLQueryDTO.cs" Line="11" Column="3" />
+      <File FileName="DemoGraphQL/GraphQL/Repositories/LugarRepository.cs" Line="92" Column="14" />
+      <File FileName="DemoGraphQL/GraphQL/Queries/LugaresQuery.cs" Line="23" Column="34" />
+      <File FileName="DemoGraphQL/GraphQL/Services/LugarService.cs" Line="24" Column="10" />
+      <File FileName="DemoGraphQL/GraphQL/SchemasGraph/GraphQLDemoSchema.cs" Line="8" Column="35" />
+      <File FileName="DemoGraphQL/Controllers/GraphQLController.cs" Line="42" Column="10" />
+      <File FileName="DemoGraphQL/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoGraphQL" expanded="True">
+            <Node name="DemoGraphQL" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="GraphQLController.cs" selected="True" />
+              </Node>
+              <Node name="GraphQL" expanded="True">
+                <Node name="Queries" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+                <Node name="SchemasGraph" expanded="True" />
+                <Node name="Services" expanded="True" />
+                <Node name="Types" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DemoGraphQL PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
