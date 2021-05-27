@@ -11,16 +11,22 @@ namespace DemoGraphQL.GraphQL.Services
 
         public LugarService(LugarRepository lugarRepository)
         {
-            _lugarRepository = lugarRepository;
+           _lugarRepository = lugarRepository;   
         }
 
-        public List<Lugares> GetAllLugares()
+        public IEnumerable<Lugares> GetAllLugares()
         {
             return _lugarRepository.GetAllLugares();
         }
+
         public Lugares GetLugarById(int id)
         {
             return _lugarRepository.GetLugarById(id);
+        }
+
+        public Lugares AddLugar(Lugares lugar)
+        {
+            return _lugarRepository.AddLugar(lugar);
         }
     }
 }

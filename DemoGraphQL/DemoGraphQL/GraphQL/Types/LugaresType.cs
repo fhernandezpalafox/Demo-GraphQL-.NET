@@ -15,14 +15,6 @@ namespace DemoGraphQL.GraphQL.Types
             Field(x => x.direccion);
             Field(x => x.telefono);
             Field(x => x.website);
-            Field(x => x.imagen_nombre);
-            Field(x => x.importancia);
-            Field(x => x.latitud);
-            Field(x => x.longitud);
-            Field(x => x.title);
-            Field(x => x.reaction).Description("Muestra la calificacion del lugar");
-            Field(x => x.rating);
-
         }
     }
 }

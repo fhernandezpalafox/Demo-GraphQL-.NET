@@ -17,6 +17,7 @@ namespace DemoGraphQL.GraphQL.Queries
             {
                 return lugarservice.GetAllLugares();
             });
+
             Field<LugaresType>(
                 name: "lugar",
                 arguments: new QueryArguments(new QueryArgument<IntGraphType>
@@ -27,6 +28,7 @@ namespace DemoGraphQL.GraphQL.Queries
                     return lugarservice.GetLugarById(id);
                 }
             );
+
         }
     }
 }

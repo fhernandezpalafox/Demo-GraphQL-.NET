@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DemoGraphQL.GraphQL.Mutations;
 using DemoGraphQL.GraphQL.Queries;
 using DemoGraphQL.GraphQL.Repositories;
 using DemoGraphQL.GraphQL.SchemasGraph;
@@ -40,8 +41,9 @@ namespace DemoGraphQL
             services.AddScoped<LugarService>();
             services.AddScoped<LugarRepository>();
             services.AddScoped<LugaresQuery>();
+            services.AddScoped<LugarMutation>();
             services.AddScoped<LugaresType>();
-
+            services.AddScoped<InputLugaresType>();
 
             services.AddScoped<ISchema, GraphQLDemoSchema>();
 
@@ -69,9 +71,12 @@ namespace DemoGraphQL
             //TODO Se agrega este codigo para activar GraphiQL
             app.UseGraphiQl("/graphql");
 
+
             app.UseRouting();
 
             app.UseAuthorization();
+
+            
 
             app.UseEndpoints(endpoints =>
             {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DemoGraphQL.GraphQL;
 using GraphQL;
+using GraphQL.NewtonsoftJson;
 using GraphQL.SystemTextJson;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
