@@ -1,28 +1,20 @@
 ﻿<Properties StartupConfiguration="{40F3D89F-157E-468D-B076-734E21C12683}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoGraphQL/AccesoDatos/LugaresOperaciones.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoGraphQL/Controllers/GraphQLController.cs">
     <Files>
-      <File FileName="DemoGraphQL/GraphQL/Mutations/LugarMutation.cs" Line="35" Column="45" />
-      <File FileName="DemoGraphQL/GraphQL/Repositories/LugarRepository.cs" Line="89" Column="78" />
-      <File FileName="DemoGraphQL/Models/Lugares.cs" Line="11" Column="30" />
-      <File FileName="DemoGraphQL/AccesoDatos/LugaresOperaciones.cs" Line="31" Column="10" />
-      <File FileName="DemoGraphQL/GraphQL/Services/LugarService.cs" Line="29" Column="40" />
-      <File FileName="DemoGraphQL/appsettings.json" Line="9" Column="22" />
+      <File FileName="DemoGraphQL/Controllers/GraphQLController.cs" Line="34" Column="13" />
+      <File FileName="DemoGraphQL/GraphQL/Mutations/LugarMutation.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DemoGraphQL" expanded="True">
             <Node name="DemoGraphQL" expanded="True">
-              <Node name="AccesoDatos" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="GraphQLController.cs" selected="True" />
+              </Node>
               <Node name="GraphQL" expanded="True">
                 <Node name="Mutations" expanded="True" />
-                <Node name="Queries" expanded="True" />
-                <Node name="Repositories" expanded="True" />
-                <Node name="Services" expanded="True" />
-                <Node name="Types" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>

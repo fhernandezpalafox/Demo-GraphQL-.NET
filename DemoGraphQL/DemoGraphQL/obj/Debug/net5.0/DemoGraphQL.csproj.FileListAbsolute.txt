@@ -128,3 +128,4 @@
 /Users/felipehernandez/Documents/GitHub/Demo-GraphQL-.NET/DemoGraphQL/DemoGraphQL/obj/Debug/net5.0/ref/DemoGraphQL.dll
 /Users/felipehernandez/Documents/GitHub/Demo-GraphQL-.NET/DemoGraphQL/DemoGraphQL/obj/Debug/net5.0/DemoGraphQL.pdb
 /Users/felipehernandez/Documents/GitHub/Demo-GraphQL-.NET/DemoGraphQL/DemoGraphQL/obj/Debug/net5.0/DemoGraphQL.genruntimeconfig.cache
+/Users/felipehernandez/Documents/GitHub/Demo-GraphQL-.NET/DemoGraphQL/DemoGraphQL/obj/Debug/net5.0/DemoGraphQL.csprojAssemblyReference.cache
